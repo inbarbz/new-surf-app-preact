@@ -3,7 +3,6 @@ import { h, Component } from "preact";
 import { TopNavBar } from "./topnavbar";
 import { UpperWeatherData } from "./upperweatherdata";
 import { LowerWeatherData } from "./lowerweatherdata";
-// import { PlaceHolder } from "./placeholder";
 import { WeatherAPI } from "./weather_api";
 
 export default class HomePage extends Component {
@@ -138,15 +137,7 @@ export default class HomePage extends Component {
 
 		return (
 			<div class="container home-page-background">
-				<div class="row">
-					<div class="col">
-						<TopNavBar />
-					</div>
-				</div>
 
-				<div>
-					<button onClick={"locztion.href = 'location.js'"}>Location</button>
-				</div>
 				<div class="row">
 					<div class="col">
 						<UpperWeatherData ux_index={this.getTodayUVLevel()} />

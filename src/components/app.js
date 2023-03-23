@@ -29,7 +29,6 @@ export default class App extends Component {
 			return (
 				<div class="container">
 					<HomePage />
-					App
 				</div>
 			);
 		} else {
@@ -44,4 +43,3 @@ export default class App extends Component {
 		}
 	}
 }
-// hi

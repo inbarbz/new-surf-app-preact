@@ -12,12 +12,7 @@ export class UpperWeatherData extends Component {
 			<div class="container">
 				<div class="row">
 					<div class="col" style="text-align:center;margin-top:100px;">
-						<Location location="Brighton Beach" />
-					</div>
-				</div>
-				<div class="row">
-					<div class="col" style="text-align:center;margin-top:5px;">
-						<WeatherIndex index="30" />
+						<Location />
 					</div>
 				</div>
 				<div class="row" style="width=100%;padding-right=2px;padding-left=2px">

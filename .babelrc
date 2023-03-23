@@ -2,10 +2,14 @@
   "sourceMaps": true,
   "presets": [
     ["es2015", { "loose":true }],
-    "stage-0"
+    "stage-0",
+    "env"
   ],
   "plugins": [
-    ["transform-decorators-legacy"],
-    ["transform-react-jsx", { "pragma": "h" }]
+    "transform-decorators-legacy",
+    ["transform-react-jsx", { "pragma": "h" }],
+    ["transform-runtime", { "regenerator": true }],
+    "transform-class-properties"
+
   ]
 }
