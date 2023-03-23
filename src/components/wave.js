@@ -26,7 +26,6 @@ export class Wave extends Component {
 				labels: labels,
 				datasets: [
 					{
-						label: "Wave Height",
 						data: waveHeightHourly.slice(currentHour, currentHour + 6),
 						borderWidth: 1,
 						cubicInterpolationMode: "monotone",
@@ -37,18 +36,28 @@ export class Wave extends Component {
 				]
 			},
 			options: {
+				plugins: {
+					title: {
+						display: false
+					},
+					legend: {
+						display: false
+					}
+				},
 				scales: {
 					x: {
 						beginAtZero: true,
 						grid: {
-							color: "rgba(255,255,255,0.4)",
+							color: "rgba(255,255,255,0.8)",
+							tickColor: "rgba(255,255,255,0.8)",
 							borderColor: "white" // <-- this line is answer to initial question
 						}
 					},
 					y: {
 						beginAtZero: true,
 						grid: {
-							color: "rgba(255,255,255,0.4)",
+							color: "rgba(255,255,255,0.8)",
+							tickColor: "rgba(255,255,255,0.8)",
 							borderColor: "white" // <-- this line is answer to initial question
 						}
 					}
@@ -67,9 +76,9 @@ export class Wave extends Component {
 		}
 
 		return (
-			<div style={this.divStyles}>
+			<div style={this.divStyles} style="height:115px;padding-bottom:0px">
 				{/* Place Holder for: {label} */}
-				<canvas id="wave-graph" width="70%" height="100"></canvas>
+				<canvas id="wave-graph" style="padding-bottom:0px"> </canvas>
 			</div>
 		);
 	}

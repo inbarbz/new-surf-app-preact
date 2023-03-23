@@ -15,9 +15,9 @@ export class LowerWeatherData extends Component {
 		let waveDirection = this.props.wave_direction;
 		return (
 			<div class="container">
-				<div class="row">
+				<div class="row" style="padding-top:0px">
 					<div class="col-2"> </div>
-					<div class="col-10" style=" width:100%">
+					<div class="col-10">
 						<Wave wave_height_hourly={waveHeightHourly} />
 					</div>
 				</div>
@@ -28,7 +28,7 @@ export class LowerWeatherData extends Component {
 					</div>
 				</div>
 
-				<div class="row" style="padding-top:5px">
+				<div class="row" style="padding-top:18px;margin-bottom:0px">
 					<Temperature
 						beach_temperature={beach_temperature}
 						water_temperature={water_temperature}

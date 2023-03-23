@@ -7,9 +7,9 @@ export class Temperature extends Component {
 
 		console.log(
 			"Render Temperature with beach_temperature = " +
-				beachTemperature +
-				" and water_temperature = " +
-				waterTemperature
+			beachTemperature +
+			" and water_temperature = " +
+			waterTemperature
 		);
 
 		return (
@@ -26,7 +26,7 @@ export class Temperature extends Component {
 					<div class="col-6" style="text-align:center;margin-top:5px;">
 						<img
 							src="../assets/surfer_water.png"
-							style="width:75px;height:75px;"
+							style="width:73px;height:73px;"
 						></img>
 						<br />
 						{waterTemperature.toFixed(1)}°

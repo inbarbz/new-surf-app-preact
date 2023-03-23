@@ -13,7 +13,7 @@ export class UpperWeatherData extends Component {
 		return (
 			<div class="container">
 				<div class="row">
-					<div class="col" style="text-align:center;margin-top:100px;">
+					<div class="col" style="text-align:center;margin-top:130px;">
 						<Location />
 					</div>
 				</div>
