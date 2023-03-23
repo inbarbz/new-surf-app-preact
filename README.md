@@ -23,7 +23,14 @@ open a terminal window in your Visual Code IDE and execute the command:
 npm run dev 
 </code>
 
-(and open a browser http://localhost:8080)
+<br/>
+# open a browser http://localhost:8080
+# open developer tools in Chrome and select Mobile Phone view with iPhone 12 Pro dimensions
+# To refresh the display you MUST do 
+<code> 
+SHIFT Refresh (in your Chrome). DO NOT do just Refresh!!!
+</code>
+
 
 # Stop the Dev server
 in the terminal window press the key combination:
