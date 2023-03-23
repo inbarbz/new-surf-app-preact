@@ -1,6 +1,6 @@
 import { h, Component } from "preact";
 
-export class UXIndex extends Component {
+export class UVIndex extends Component {
 	getImage(uvIndex) {
 		switch (uvIndex) {
 			case 2:

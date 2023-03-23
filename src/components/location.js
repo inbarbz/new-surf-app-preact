@@ -5,7 +5,7 @@ export class Location extends Component {
 		console.log("Render Location");
 		let location = this.props.location;
 		return (
-			<div class="container localtion" style="font-size:30px;">
+			<div class="container localtion" style="font-size:40px;color:white">
 				{location}
 			</div>
 		);

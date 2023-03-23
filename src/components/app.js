@@ -12,6 +12,11 @@ export default class App extends Component {
 		this.setState({
 			isTablet: true,
 		});
+
+		window.addEventListener("resize", function () {
+			"use strict";
+			window.location.reload();
+		});
 	}
 
 	isMobileDisplaySize() {
