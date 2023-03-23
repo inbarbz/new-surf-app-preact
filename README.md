@@ -24,9 +24,9 @@ npm run dev
 </code>
 
 <br/>
-- open a browser http://localhost:8080
-- open developer tools in Chrome and select Mobile Phone view with iPhone 12 Pro dimensions
-- To refresh the display you MUST do 
+- open a browser http://localhost:8080 <br/>
+- open developer tools in Chrome and select Mobile Phone view with iPhone 12 Pro dimensions <br/>
+- To refresh the display you MUST do <br/>
 <code> 
 SHIFT Refresh (in your Chrome). DO NOT do just Refresh!!!
 </code>
