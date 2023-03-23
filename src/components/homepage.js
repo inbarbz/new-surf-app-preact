@@ -163,14 +163,6 @@ export default class HomePage extends Component {
 
 		return (
 			<div class="container home-page-background">
-<<<<<<< HEAD
-=======
-				<div class="row" style="padding-top:50px;padding-left:0px">
-					<div class="col" style="padding-left:0px">
-						<TopNavBar />
-					</div>
-				</div>
->>>>>>> 074ab18681f5ec3bc227afefc85a05bfb5b46383
 
 				<div class="row">
 					<div class="col">

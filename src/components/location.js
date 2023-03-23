@@ -7,7 +7,6 @@ import '../location.css';
 
 
 export class Location extends Component {
-<<<<<<< HEAD
   render() {
 
     const [btext, setText] = useState("°F");
@@ -98,15 +97,3 @@ export class Location extends Component {
     )
   }
 };
-=======
-	render() {
-		console.log("Render Location");
-		let location = this.props.location;
-		return (
-			<div class="container localtion" style="font-size:40px;color:white">
-				{location}
-			</div>
-		);
-	}
-}
->>>>>>> 074ab18681f5ec3bc227afefc85a05bfb5b46383
